@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: #05081a;
+    border-bottom: black 1px solid;
+    display: block;
+}
+
+.navbars-home{
+    color: white;
+    border: white .125em solid;
+    border-radius: 5px;
+    padding: .25em 1em;
+    float: right;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.navbars-accounts{
+    color: white;
+    border: white .125em solid;
+    border-radius: 5px;
+    padding: .25em 1em;
+    float: right;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.navbars-profile{
+    color: white;
+    border: white .125em solid;
+    border-radius: 5px;
+    padding: .25em 1em;
+    float: right;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.navbars-home:hover{
+    background: white;
+    color: #05081a;
+}
+
+.navbars-accounts:hover{
+    background: white;
+    color: #05081a;
+}
+
+.navbars-profile:hover{
+    background: white;
+    color: #05081a;
+}
+
+.search-bar{
+    width: 375px;
+    height: 36px;
+    margin-left: 265px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    float: left;
+    border-color: rgb(87, 79, 79);
+    border-width: 1px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#header-2{
+    width: 100%;
+    height: 569px;
+    background: rgb(9, 35, 60);
+    display: block;
+}
+
+.hed-2-image-1{
+    width: 350px;
+    height: 350px;
+    margin-left: 108px;
+    margin-top: 105px;
+    background: grey;
+    border-radius: 5px;
+    float: left;
+}
+
+.hed-2-image-1:hover{
+    width: 360px;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background: grey;
+    float: left;
+}
+
+.hed-2-image-2{
+    width: 350px;
+    height: 350px;
+    background: grey;
+    margin-left: 50px;
+    margin-top: 105px;
+    border-radius: 5px;
+    float: left;
+}
+
+.hed-2-image-2:hover{
+    width: 360px;
+    height: 360px;
+    margin-left: 42px;
+    margin-top: 100px;
+    background: grey;
+    float: left;
+}
+
+.hed-2-image-3{
+    width: 350px;
+    height: 350px;
+    background: grey;
+    margin-left: 50px;
+    margin-top: 105px;
+    border-radius: 5px;
+    float: left;
+}
+
+.hed-2-image-3:hover{
+    width: 360px;
+    height: 360px;
+    margin-left: 42px;
+    margin-top: 100px;
+    background: grey;
+    float: left;
+}
+
+.addphoto{
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.addphoto{
+    position: relative;
+}
+
+.addphoto::after{
+    content: "Add a Photo";
+    display: block;
+    position: absolute;
+    background-color: brown;
+    padding: 1em 1em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em; 
+    white-space: nowrap;
+    transform: scale(0);
+    transition: transform ease-out 150ms;
+}
+
+.addphoto:hover::after{
+    transform: scale(1);
+}
