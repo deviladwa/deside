@@ -170,6 +170,7 @@ body{
     white-space: nowrap;
     transform: scale(0);
     transition: transform ease-out 150ms;
+    cursor: pointer;
 }
 
 .addphoto:hover::after{
